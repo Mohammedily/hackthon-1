@@ -6,7 +6,7 @@
      let data1="";
      completedata.map((values) => {
          data1+=`<div>
-         <img src=${values.tags} alt="img" class="img">
+         <img src=${values.tags[0]} alt="img" class="img">
          </div>
          
          `;
